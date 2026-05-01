@@ -19,7 +19,7 @@
             --main-color: blue;
             --primary-color: rgb(185, 210, 47);
             --my-favorite-color: green;
-            /* FIXED (was missing globally) */
+           
         }
 
         h1 {
@@ -33,7 +33,7 @@
             color: var(--my-favorite-color);
         }
 
-        /* Top bar */
+      
         .top {
             display: flex;
             justify-content: flex-end;
@@ -56,7 +56,7 @@
             object-fit: cover;
         }
 
-        /* Search box */
+   
         .search-container {
             display: flex;
             align-items: center;
@@ -77,7 +77,7 @@
             font-size: 16px;
         }
 
-        /* Shortcut grid */
+    
         .shortcut {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
@@ -86,18 +86,16 @@
             justify-items: center;
         }
 
-        /* Each shortcut item */
+      
         .instance {
             display: flex;
-            /* FIX: align content */
             flex-direction: column;
-            /* stack image + text */
             align-items: center;
             justify-content: center;
             cursor: pointer;
         }
 
-        /* Circle icon */
+        
         .instance img {
             border-radius: 50%;
             width: 35px;
@@ -113,10 +111,10 @@
             transform: scale(1.1);
         }
 
-        /* Text under icon */
+      
         .instance-p {
             margin-top: 8px;
-            /* FIX: better spacing */
+        
             font-size: 13px;
         }
     </style>
