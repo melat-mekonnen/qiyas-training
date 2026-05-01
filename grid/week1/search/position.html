@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adele Profile</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+       
+        .main-container {
+            width: 800px;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+      
+        .banner {
+            height: 200px;
+            background: url("https://images.unsplash.com/photo-1508780709619-79562169bc64") center/cover;
+            position: relative;
+        }
+
+       
+        .top-adjestment {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            color: white;
+        }
+
+       
+        .right-icons i {
+            margin-left: 12px;
+            cursor: pointer;
+        }
+
+       
+        .top-adjestment i:hover {
+            opacity: 0.7;
+        }
+
+       
+        .middle-adjestment {
+            position: absolute;
+            right: 15px;
+            bottom: 10px;
+        }
+
+        .button-follow,
+        .button-viewMore {
+            border: none;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+
+        .button-follow {
+            background: #ff4d94;
+            color: #fff;
+        }
+
+        .button-viewMore {
+            background: #fff;
+            color: #ff4d94;
+        }
+
+    
+        .two-section {
+            display: flex;
+        }
+
+        .section1-order {
+            width: 35%;
+            background: linear-gradient(135deg, #c94b7a, #ff4d94);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px 20px;
+            position: relative;
+        }
+
+       
+        .profile-img {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .profile-img img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+        }
+
+        .online-dot {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            width: 12px;
+            height: 12px;
+            background: #00ff6a;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+       
+        .person-description {
+            margin-top: 60px;
+            font-weight: bold;
+        }
+
+        .section1-order p {
+            font-size: 12px;
+            margin: 5px 0 15px;
+        }
+
+      
+        .logos i {
+            margin: 5px;
+            padding: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+        }
+
+     
+        .description {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .description h3 {
+            font-size: 14px;
+        }
+
+        .description p {
+            font-size: 11px;
+        }
+
+        
+        .section2-order {
+            width: 65%;
+            padding: 20px;
+        }
+
+        .section2-order h2 {
+            color: #ff4d94;
+            margin-bottom: 10px;
+        }
+
+        .section2-order p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+   
+        @media(max-width:768px) {
+            .two-section {
+                flex-direction: column;
+            }
+
+            .section1-order,
+            .section2-order {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+   
+        <div class="banner">
+            <div class="top-adjestment">
+                <div class="left-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="right-icons">
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
+            <div class="middle-adjestment">
+                <button class="button-follow">
+                    <i class="fa fa-heart"></i> Follow
+                </button>
+                <button class="button-viewMore">
+                    <i class="fa fa-plus"></i> View more
+                </button>
+            </div>
+        </div>
+
+        <div class="two-section">
+
+          
+            <div class="section1-order">
+
+                <div class="profile-img">
+                    <img src="/images/ade2.webp">
+                    <div class="online-dot"></div>
+                </div>
+
+                <div class="person-description">
+                    Adele Laurie Blue Adkins
+                </div>
+
+                <p>Auteure - compositrice & interprète</p>
+
+                <div class="logos">
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+
+                <div class="description">
+                    <div>
+                        <h3>3k</h3>
+                        <p>following</p>
+                    </div>
+                    <div>
+                        <h3>30,5M</h3>
+                        <p>followers</p>
+                    </div>
+                    <div>
+                        <h3>90,6M</h3>
+                        <p>views</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="section2-order">
+                <h2>About</h2>
+                <p>
+                    Adele (born 5 May 1988) is an English singer-songwriter. After graduating from the BRIT School for
+                    Performing Arts and
+                    Technology in 2006, Adele was given a recording contract by XL Recordings after a friend posted her
+                    demo on Myspace the
+                    same year. In 2007, she received the Brit Awards "Critics' Choice" award and won the BBC Sound of
+                    2008 poll. Her debut
+                    album, <em>19</em>, was released in 2008 to commercial and critical success. It is certified seven
+                    times platinum in the
+                    UK and three times platinum in the US. The album contains her first song, "Hometown Glory", written
+                    when she was 16,
+                    which is based on her home suburb of West Norwood in London. An appearance she made on <em>Saturday
+                        Night Live</em> in
+                    late 2008 boosted her career in the US. At the 51st Grammy Awards in 2009, Adele received the awards
+                    for Best New Artist
+                    and Best Female Pop Vocal Performance.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
